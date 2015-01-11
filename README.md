@@ -1,9 +1,9 @@
 # Di55ect-GitHub
 
-Class materials for Di55ect: GitHub for Designers
+Presentation materials for Di55ect: GitHub for Designers
 
 ### About Di55ect
-Di55ect is a series of events that explore the art and technology behind the [25x52](http://25x52.com) initiative. Check out [http://25x52.com/di55ect](http://25x52.com/di55ect) to learn more or to sign up for events.
+Di55ect is a series of events that explore the art and technology behind the [25x52](http://25x52.com) initiative. Check out [http://25x52.com/di55ect](http://25x52.com/di55ect) to learn more and to sign up for upcoming events.
 
 ### Pre-work Setup
 * If you don’t yet have one, [create a Github account](https://github.com)
