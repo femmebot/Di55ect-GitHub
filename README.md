@@ -2,6 +2,10 @@
 
 ## Class materials for Di55ect: GitHub for Designers
 
+-----
+Di55ect is a series of events that explore the art and technology behind the [25x52](http://25x52.com) initiative. Check out [http://25x52.com/di55ect](http://25x52.com/di55ect) to learn more or to sign up for events.
+-----
+
 Pre-work setup:
 * If you don’t yet have one, [create a Github account](https://github.com)
 * If you don’t already have a text editor or IDE installed, [install GitHub's Atom editor](https://atom.io) (optional: Preferences > Install autocomplete plus, autoclose html)
