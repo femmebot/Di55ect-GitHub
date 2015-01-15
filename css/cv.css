@@ -4,14 +4,16 @@ body { background: #f8e9e4 url('../images/bg-illo.png') center 500px no-repeat; 
 .lede .eyebrow a { color: #912; }
 .lede .eyebrow a:hover { text-decoration: none; }
 .lede .series { padding-top: 16px; height: 70px; width: 60px; font: 300 54px/50px 'Oswald', 'Trebuchet MS', sans-serif; color: #c8b8b8; }
-.lede .content { margin: 0 0 0 100px; }
-.lede .content h1 { text-transform: uppercase; font: 900 90px/90px 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif; color: #483535; padding: 0; margin: 0 0 30px; }
-.lede .content h2 { text-transform: uppercase; font: 11px/15px 'Chivo', 'Helvetica', sans-serif; color: #000; letter-spacing: .15em; margin: 0 5px; }
-.lede .content p { font: 400 16px/25px 'Chivo', 'Helvetica', sans-serif; margin: 30px 0; max-width: 540px; color: #584843; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-.lede .content p a { color: #912; }
-.lede .content p a:hover { text-decoration: none; border-bottom: 1px solid #a31; }
-.lede .content .tinytype { font: 11px/12px 'Chivo', Helvetica, Arial, sans-serif; }
-.lede .content hr { width: 15px; margin: 50px 0 15px 0; border-color: #fff; }
+.lede .wrapper { margin: 0 0 40px 100px; }
+.lede .wrapper h1 { text-transform: uppercase; font: 900 74px/68px 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif; color: #483535; max-width: 600px; padding: 0; margin: 8px 0 60px; }
+.lede .wrapper h2 { text-transform: uppercase; font: 11px/15px 'Chivo', 'Helvetica', sans-serif; color: #000; letter-spacing: .15em; margin: 0 5px; }
+.lede .wrapper p { font: 400 16px/25px 'Chivo', 'Helvetica', sans-serif; margin: 30px 0; max-width: 540px; color: #584843; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+.lede .wrapper p a { color: #912; }
+.lede .wrapper p a:hover { text-decoration: none; border-bottom: 1px solid #a31; }
+.lede .wrapper pre { padding: 10px; background-color: #fff; font: 12px/16px 'Andale Mono', 'Lucida Console', monospace; max-width: 540px;-webkit-font-smoothing: auto;  }
+.lede .wrapper pre .cmd:before { color: #bbb; content: '$ '; }
+.lede .wrapper .tinytype { font: 11px/12px 'Chivo', Helvetica, Arial, sans-serif; }
+.lede .wrapper hr { width: 15px; margin: 50px 0 15px 0; border-color: #fff; }
 .lede .btn { height: 60px; background-color: #f66; color: #333; padding-left: 30px; padding-right: 30px; font: 16px 'Chivo', 'Helvetica', sans-serif; }
 .showcase { padding: 60px 10px 300px 10px; }
 .showcase .module { background-color: rgba(255, 255, 255, .7); max-width: 460px; height: 300px; padding: 20px 60px; margin: 10px; overflow: hidden; }
@@ -25,8 +27,9 @@ body { background: #f8e9e4 url('../images/bg-illo.png') center 500px no-repeat; 
 
 
 @media (max-width: 768px) {
-  .lede .content { clear: both; margin-left: 0; margin-top: 60px; }
-  .lede .content p { max-width: 90%; }
+  .lede .wrapper { clear: both; margin-left: 0; margin-top: 60px; }
+  .lede .wrapper h1 { font-size: 60px; line-height: 60px; }
+  .lede .wrapper p { max-width: 90%; }
   .showcase .module { max-width: 90%; }
   .showcase .resources { margin: 10px 0 40px 10px; }
 }
