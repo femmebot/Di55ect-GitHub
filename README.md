@@ -12,3 +12,17 @@ Di55ect is a series of events that explore the art and technology behind the [25
 * Install Git using [Homebrew](http://brew.sh). Watch this brief video for installation instructions: http://vimeo.com/14649488
 * Set up GitHub SSH key: https://help.github.com/articles/generating-ssh-keys/
 * Cache GitHub password https://help.github.com/articles/caching-your-github-password-in-git/ (optional)
+
+### Questions/Tips
+
+**I'm in a weird window that says "Please enter the commit message for your changes." - HELP!**
+This probably happened because you typed "git commit" and return. Start by typing "i" to insert. Type in a message describing your commit. When you're done:
+
+* press Esc
+* type :x and press ENTER.
+
+This should get you back to the terminal where you should see the message you just typed in along with some other information about your commit.
+
+**How can I open a file to edit from Terminal?**
+If you're using Atom as your text editor just type: atom < filename >
+For Sublime Text users, follow along this [guide](https://gist.github.com/artero/1236170).
