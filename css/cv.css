@@ -11,7 +11,7 @@ body { background: #e5f3f3 url('../images/bg-illo.png') center 500px no-repeat; 
 .lede .wrapper p { font: 400 16px/25px 'Chivo', 'Helvetica', sans-serif; margin: 30px 0; max-width: 540px; color: #584843; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 .lede .wrapper a { color: #e12; }
 .lede .wrapper a:hover { text-decoration: none; border-bottom: 1px solid #e12; }
-.lede .wrapper pre { padding: 10px; background-color: #fff; font: 14px/20px 'Andale Mono', 'Lucida Console', monospace; max-width: 540px;-webkit-font-smoothing: auto;  }
+.lede .wrapper pre { padding: 10px; background-color: #fff; font: 14px/20px 'Andale Mono', 'Lucida Console', monospace; max-width: 540px; -webkit-font-smoothing: auto;  }
 .lede .wrapper pre .cmd:before { color: #bbb; content: '$ '; }
 .lede .wrapper pre .comment:before { color: #bbb; content: '# '; }
 .lede .wrapper pre .comment { color: #999; }
