@@ -2,7 +2,7 @@
 
 
 ### About
-These workshop materials were developed as part of the [25x52](http://25x52.com) initiative. GitHub is popular among developers for managing source code...but it’s not just for programmers. In this workshop, participants will take advantage of GitHub's excellent distributed version-control capabilities and collaboration features to host and share their own open-source, non-technical projects. No programming skills required. Requires a Mac running OS X Yosemite (10.10+).
+These workshop materials were developed as part of the [25x52](https://25x52.site) initiative. GitHub is popular among developers for managing source code...but it’s not just for programmers. In this workshop, participants will take advantage of GitHub's excellent distributed version-control capabilities and collaboration features to host and share their own open-source, non-technical projects. No programming skills required. Requires a Mac running OS X Yosemite (10.10+).
 
 What we'll cover:
 - Learn basic Git commands for navigating and managing files using terminal
